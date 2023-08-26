@@ -2,7 +2,17 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
+
+
+
+svg.ml-2.h-4.w-4 {
+  display: none;
+}
+.my-gb1 {
+  /* Creating a horizontal gradient with three colors */
+  background: linear-gradient(to right, #fff, #1f695bbf, #1f695bbf, #1f695bbf, #1f695bbf,#1f695bbf, #1f695bda);
+}
+/* :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
@@ -24,4 +34,4 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
-}
+} */
