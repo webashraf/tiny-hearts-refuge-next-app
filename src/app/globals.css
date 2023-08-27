@@ -10,8 +10,11 @@ section{
 svg.ml-2.h-4.w-4 {
   display: none;
 }
+.my-gb {
+  background: linear-gradient(to right, #87ffcd2e, #87ffcd2e,#00ca768f,#02b87c);
+}
 .my-gb1 {
-  background: linear-gradient(to right, #87ffcd2e, #00ff43d9);
+  background: linear-gradient(to right, #87ffcd2e, #00ffaad9);
 }
 .my-gb2 {
   background: linear-gradient(to right, #87ffcd, #00ff43bf);
@@ -21,19 +24,19 @@ svg.ml-2.h-4.w-4 {
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
   /* text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5), -2px -2px 4px rgba(255, 255, 255, 0.5); */
 }
-.welcome-section ul {
+.styled-ul {
   list-style: none;
   padding: 0;
 }
 
-.welcome-section ul li {
+.styled-ul li {
   position: relative;
   padding-left: 30px; /* Space for the icon */
   margin-bottom: 10px;
   line-height: 1.5;
 }
 
-.welcome-section ul li::before {
+.styled-ul li::before {
   content: "\2713"; /* Unicode bullet character */
   position: absolute;
   left: 0;

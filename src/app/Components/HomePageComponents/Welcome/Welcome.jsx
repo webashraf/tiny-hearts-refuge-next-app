@@ -13,16 +13,20 @@ const Welcome = () => {
                 placeholder='blur'
                 />
             </div>
-            <div className="w-1/2 shadow-2xl p-5 relative -left-[126px] bg-white rounded-lg shadow-[#00ff43d9">
-                <div className="welcome-section">
-                    <p className='uppercase text-[#00ff44] font-bold underline'>About Us</p>
-                    <h2 className='text-5xl font-serif'>Welcome To Our Donation
-                    </h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet iste quod libero! Magnam laborum quaerat, et perferendis alias placeat consectetur fugit possimus. </p>
-                    <ul className='ml-5'>
-                        <li>List</li>
-                        <li>List</li>
-                        <li>List</li>
+            <div className="w-1/2 shadow-2xl p-5 relative -left-[126px] bg-white rounded-lg shadow-[#00ffbf5a]">
+                <div className="welcome-section space-y-3">
+                    <p className='uppercase text-[#00ffbf] font-bold underline'>About Us</p>
+
+
+                    <h1 class="mb-4 text-xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-5xl dark:text-white capitalize ">Welcome To Our&nbsp;<span class="underline underline-offset-3 decoration-8 decoration-[#00ff8c] dark:decoration-blue-600">Donation</span></h1>
+
+                    <p className=''>Experience the profound impact of your generosity. Welcome to our platform, where every donation drives meaningful transformation for street children.</p>
+                    <ul className='ml-5 styled-ul'>
+                        <li>Be a lifeline for children in need.</li>
+                        <li>Spark positive change with your support.
+</li>
+                        <li>Join hands in a compassionate community.
+</li>
                     </ul>
                 </div>
             </div>
