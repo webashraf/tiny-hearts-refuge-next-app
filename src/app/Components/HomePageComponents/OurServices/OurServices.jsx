@@ -39,7 +39,7 @@ const OurServices = () => {
             </div> */}
           </div>
 
-          <div className="p-3 space-y-3 card-description-hover-top relative -top-10 bg-[#ffffffe6] rounded-xl shadow-2xl w-[90%] mx-auto">
+          <div className="p-3 space-y-3 card-description-hover-top relative -top-10 bg-[#ffff] rounded-xl shadow-2xl w-[90%] mx-auto">
             <Button
               gradientDuoTone="greenToBlue"
               className="rounded-none"
@@ -81,7 +81,7 @@ const OurServices = () => {
             </div> */}
           </div>
 
-          <div className="p-3 space-y-3 card-description-hover-top relative -top-10 bg-[#ffffffe6] rounded-xl shadow-2xl w-[90%] mx-auto">
+          <div className="p-3 space-y-3 card-description-hover-top relative -top-10 bg-[#ffff] rounded-xl shadow-2xl w-[90%] mx-auto">
             <Button
               gradientDuoTone="greenToBlue"
               className="rounded-none"
@@ -123,7 +123,7 @@ const OurServices = () => {
             </div> */}
           </div>
 
-          <div className="p-3 space-y-3 card-description-hover-top relative -top-10 bg-[#ffffffe6] rounded-xl shadow-2xl w-[90%] mx-auto">
+          <div className="p-3 space-y-3 card-description-hover-top relative -top-10 bg-[#ffff] rounded-xl shadow-2xl w-[90%] mx-auto">
             <Button
               gradientDuoTone="greenToBlue"
               className="rounded-none"
@@ -164,7 +164,7 @@ const OurServices = () => {
             </div> */}
           </div>
 
-          <div className="p-3 space-y-3 card-description-hover-top relative -top-10 bg-[#ffffffe6] rounded-xl shadow-2xl w-[90%] mx-auto">
+          <div className="p-3 space-y-3 card-description-hover-top relative -top-10 bg-[#ffff] rounded-xl shadow-2xl w-[90%] mx-auto">
             <Button
               gradientDuoTone="greenToBlue"
               className="rounded-none"
@@ -205,7 +205,7 @@ const OurServices = () => {
             </div> */}
           </div>
 
-          <div className="p-3 space-y-3 card-description-hover-top relative -top-10 bg-[#ffffffe6] rounded-xl shadow-2xl w-[90%] mx-auto">
+          <div className="p-3 space-y-3 card-description-hover-top relative -top-10 bg-[#ffff] rounded-xl shadow-2xl w-[90%] mx-auto">
             <Button
               gradientDuoTone="greenToBlue"
               className="rounded-none"
@@ -246,7 +246,7 @@ const OurServices = () => {
             </div> */}
           </div>
 
-          <div className="p-3 space-y-3 card-description-hover-top relative -top-10 bg-[#ffffffe6] rounded-xl shadow-2xl w-[90%] mx-auto">
+          <div className="p-3 space-y-3 card-description-hover-top relative -top-10 bg-[#ffff] rounded-xl shadow-2xl w-[90%] mx-auto">
             <Button
               gradientDuoTone="greenToBlue"
               className="rounded-none"

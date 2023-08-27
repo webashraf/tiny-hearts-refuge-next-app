@@ -1,19 +1,15 @@
-import img1 from "@/app/Assets/child-image/child1.jpg";
 import img2 from "@/app/Assets/child-image/child2.jpeg";
 import img4 from "@/app/Assets/child-image/child4.jpeg";
 import img5 from "@/app/Assets/child-image/child5.jpg";
 import img6 from "@/app/Assets/child-image2/rose-girl.jpg";
 import Image from "next/image";
 
-import img7 from '@/app/Assets/child-image2/feeding.jpg';
 import img8 from '@/app/Assets/child-image2/Counseling .jpg';
-import img9 from '@/app/Assets/child-image2/happy.jpg';
-import img10 from '@/app/Assets/child-image2/training.jpg';
-import img11 from '@/app/Assets/child-image2/teach.jpg';
-import img12 from '@/app/Assets/child-image2/safety.png';
-import img13 from '@/app/Assets/child-image2/event1-416x412.jpg';
-import img14 from '@/app/Assets/child-image2/I_am_hungry.jpg';
 import img18 from '@/app/Assets/child-image2/bg-child.jpg';
+import img13 from '@/app/Assets/child-image2/event1-416x412.jpg';
+import img7 from '@/app/Assets/child-image2/feeding.jpg';
+import img12 from '@/app/Assets/child-image2/safety.png';
+import img11 from '@/app/Assets/child-image2/teach.jpg';
 import SectionHeding from "./../../Shared/SectionHeding/SectionHeding";
 const TinyHearts = () => {
   return (
