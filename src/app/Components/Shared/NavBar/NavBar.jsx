@@ -1,6 +1,7 @@
 'use client';
 
-import { Avatar, Dropdown, Navbar, li } from 'flowbite-react';
+import { Avatar, Dropdown, Navbar,  } from 'flowbite-react';
+import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin} from 'react-icons/fa';
 
 
 import Link from 'next/link';
@@ -9,14 +10,21 @@ import React from 'react';
 const NavBar = () => {
     return (
         <div className=''>
-            <nav className="bg-white border-gray-200 dark:bg-gray-900">
+            <nav className="bg-white border-gray-200 dark:bg-gray-900 my-gb2">
                 <div className="flex flex-wrap justify-between lis-center mx-auto max-w-screen-xl p-4">
-                    <Link href="/" className="flex lis-center">
-                        <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white text-blue-950">Tiny-Hearts-Refuge</span>
-                    </Link>
+                    <div className='flex gap-3 items-center'>
+                        <h2 className='text-gray-500 text-xs'>FOLLOW US</h2>
+                        <FaFacebook className='hover:text-gray-500 text-xs'></FaFacebook>
+                        <FaTwitter className='hover:text-gray-500 text-xs'></FaTwitter>
+                        <FaInstagram className='hover:text-gray-500 text-xs'></FaInstagram>
+                        <FaLinkedin className='hover:text-gray-500 text-xs'></FaLinkedin>
+                    </div>
                     <div className="flex items-center">
-                        <a href="tel:5541251234" className="mr-6 text-sm  text-gray-500 dark:text-white hover:underline">(555) 412-1234</a>
-                        <a href="#" className="text-sm  text-blue-600 dark:text-blue-500 hover:underline">Login</a>
+                        <div className='flex flex-row text-end gap-3'>
+                        <a href="tel:5541251234" className="mr- text-xs  text-gray-500 dark:text-white hover:underline">Mobile Bank: (555) 412-1234</a>
+                        <a href="#" className="mr- text-xs  text-gray-500 dark:text-white hover:underline">Bank: 4242 0654 3456 2345</a>
+                        {/* <a href="#" className="text-sm  text-blue-600 dark:text-blue-500 hover:underline">Sign Out</a> */}
+                        </div>
                     </div>
                 </div>
             </nav>
@@ -24,7 +32,9 @@ const NavBar = () => {
                 fluid
                 rounded
             >
-
+                <Link href="/" className="flex lis-center">
+                    <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white text-blue-950">Tiny-Hearts-Refuge</span>
+                </Link>
                 <div className="flex md:order-2">
                     <Dropdown
                         inline
@@ -67,8 +77,8 @@ const NavBar = () => {
                             Home
                         </p>
                     </Navbar.Link>
-                    <Navbar.Link href="#">
-                        About
+                    <Navbar.Link href="/template">
+                        Template
                     </Navbar.Link>
                     <Navbar.Link href="#">
                         Services
@@ -80,6 +90,7 @@ const NavBar = () => {
                         Contact
                     </Navbar.Link>
                 </Navbar.Collapse>
+
             </Navbar>
 
         </div>
