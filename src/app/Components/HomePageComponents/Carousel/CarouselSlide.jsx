@@ -6,9 +6,7 @@ import { Fade } from "react-awesome-reveal";
 
 import { Button } from 'flowbite-react';
 import { FaDonate } from 'react-icons/fa';
-// import img1 from '@/src/app/Assets/child-image/child1.webp'
 import img1 from '@/app/Assets/child-image/child1.jpg';
-// import img1 from '@/app/Assets/child-image/child1.jpg';
 import img2 from '@/app/Assets/child-image/child2.jpeg';
 import img3 from '@/app/Assets/child-image/child3.jpeg';
 import img4 from '@/app/Assets/child-image/child4.jpeg';

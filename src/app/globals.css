@@ -4,7 +4,9 @@
 
 
 
-
+section{
+  padding: 5rem 0;
+}
 svg.ml-2.h-4.w-4 {
   display: none;
 }
@@ -19,19 +21,19 @@ svg.ml-2.h-4.w-4 {
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
   /* text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5), -2px -2px 4px rgba(255, 255, 255, 0.5); */
 }
-ul {
+.welcome-section ul {
   list-style: none;
   padding: 0;
 }
 
-li {
+.welcome-section ul li {
   position: relative;
   padding-left: 30px; /* Space for the icon */
   margin-bottom: 10px;
   line-height: 1.5;
 }
 
-li::before {
+.welcome-section ul li::before {
   content: "\2713"; /* Unicode bullet character */
   position: absolute;
   left: 0;
