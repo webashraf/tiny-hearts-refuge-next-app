@@ -11,8 +11,6 @@ import DonateOurChild from './../Components/HomePageComponents/DonateOurChild/Do
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col w-[1280px] mx-auto justify-between">
-
-      <NavBar></NavBar>
         {/* <CarouselSlide /> */}
         <Banner />
 

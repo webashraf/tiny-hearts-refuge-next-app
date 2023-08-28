@@ -72,7 +72,7 @@ const NavBar = () => {
                 <Navbar.Collapse>
                     <Navbar.Link
                         active
-                        href="#"
+                        href="/"
                     >
                         <p>
                             Home
