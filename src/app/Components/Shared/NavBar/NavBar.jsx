@@ -1,7 +1,7 @@
 'use client';
 
-import { Avatar, Dropdown, Navbar,  } from 'flowbite-react';
-import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin} from 'react-icons/fa';
+import { Avatar, Dropdown, Navbar, } from 'flowbite-react';
+import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin } from 'react-icons/fa';
 
 
 import Link from 'next/link';
@@ -21,9 +21,9 @@ const NavBar = () => {
                     </div>
                     <div className="flex items-center">
                         <div className='flex flex-row text-end gap-3'>
-                        <a href="tel:5541251234" className="mr- text-xs  text-gray-500 dark:text-white hover:underline">Mobile Bank: (555) 412-1234</a>
-                        <a href="#" className="mr- text-xs  text-gray-500 dark:text-white hover:underline">Bank: 4242 0654 3456 2345</a>
-                        {/* <a href="#" className="text-sm  text-blue-600 dark:text-blue-500 hover:underline">Sign Out</a> */}
+                            <a href="tel:5541251234" className="mr- text-xs  text-gray-500 dark:text-white hover:underline">Mobile Bank: (555) 412-1234</a>
+                            <a href="#" className="mr- text-xs  text-gray-500 dark:text-white hover:underline">Bank: 4242 0654 3456 2345</a>
+                            {/* <a href="#" className="text-sm  text-blue-600 dark:text-blue-500 hover:underline">Sign Out</a> */}
                         </div>
                     </div>
                 </div>
@@ -31,6 +31,7 @@ const NavBar = () => {
             <Navbar
                 fluid
                 rounded
+                // className='py-8'
             >
                 <Link href="/" className="flex lis-center">
                     <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white text-blue-950">Tiny-Hearts-Refuge</span>

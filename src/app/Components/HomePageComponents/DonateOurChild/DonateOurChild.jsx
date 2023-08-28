@@ -23,7 +23,7 @@ const DonateOurChild = () => {
                 </div>
                 <div className='w-1/2 px-10'>
                     <Card className='relative'>
-                        <div className='py-8 w-[80%] mx-auto text-center text-white bg-[#0e7490] absolute -top-16 rounded-xl left-0 right-0'>
+                        <div className='py-8 w-[80%] mx-auto text-center text-white bg-[#0e7490] absolute -top-16 rounded-xl left-0 right-0 shadow-xl'>
                             <h2 className='text-4xl font-bold uppercase'>Send A Mail Us</h2>
                         </div>
                         <form className="flex flex-col gap-4 mt-10">
