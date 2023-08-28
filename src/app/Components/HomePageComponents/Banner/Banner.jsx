@@ -32,12 +32,12 @@ const Banner = () => {
             <p className=" font-normal">
               Together, Let's Make a Meaningful Impact – Your Support Fuels Progress, Provides Hope, and Transforms Communities. Join Hands for a Better Tomorrow.
             </p>
-            <Fade fraction className="font- uppercase font-normal">
+            <Bounce  className="font- uppercase font-normal">
               <Button gradientMonochrome="info">
                 <FaDonate className="mr-2 h-5 w-5" />
                 Donate Now
               </Button>
-            </Fade>
+            </Bounce>
           </div>
 
 

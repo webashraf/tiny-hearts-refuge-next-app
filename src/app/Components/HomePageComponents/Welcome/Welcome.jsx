@@ -1,5 +1,7 @@
+'use client'
 import Image from 'next/image';
 import img from '@/app/Assets/child-image2/welcome.jpg';
+import { Fade, Flip, Zoom } from 'react-awesome-reveal';
 
 const Welcome = () => {
     return (
@@ -13,7 +15,7 @@ const Welcome = () => {
                 placeholder='blur'
                 />
             </div>
-            <div className="w-1/2 shadow-2xl p-5 relative -left-[126px] bg-white rounded-lg shadow-[#00ffbf5a]">
+            <Fade  className="w-1/2 shadow-2xl p-5 relative -left-[126px] bg-white rounded-lg shadow-[#00ffbf5a]">
                 <div className="welcome-section space-y-3">
                     <p className='uppercase text-[#00ffbf] font-bold underline'>About Us</p>
 
@@ -29,7 +31,7 @@ const Welcome = () => {
 </li>
                     </ul>
                 </div>
-            </div>
+            </Fade>
         </div>
     );
 };

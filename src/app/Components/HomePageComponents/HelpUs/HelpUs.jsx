@@ -47,7 +47,7 @@ const HelpUs = () => {
                         </Button>
                     </div>
                 </div>
-                <div space-y-3>
+                <div>
                     <div className="relative rounded-sm overflow-hidden">
                         <Image
                             placeholder="blur"
@@ -108,12 +108,12 @@ const HelpUs = () => {
                 <h4 className='text-2xl font-bold text-center uppercase py-5'>Want to be our volunteer?</h4>
                 <div className='h-[50px] flex overflow-hidden w-[420px] mx-auto'>
                     <div>
-                    <input type="email" name="" className='h-full border-[#2ec091]' placeholder='name@email.com' id="" 
-                    />
+                        <input type="email" name="" className='h-full border-[#2ec091]' placeholder='name@email.com' id=""
+                        />
                     </div>
-                    
+
                     <div className='bg-[#2ec091] -skew-x-12 relative -left-2 px-10'>
-                    <input className='bg-[#2ec091 h-full px-5 font-bold text-white tracking-widest' type="button" value="Submit" />
+                        <input className='bg-[#2ec091 h-full px-5 font-bold text-white tracking-widest' type="button" value="Submit" />
                     </div>
                 </div>
             </div>

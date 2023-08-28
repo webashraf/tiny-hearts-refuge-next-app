@@ -1,16 +1,15 @@
-"use client";
-import React from "react";
-import SectionHeding from "./../../Shared/SectionHeding/SectionHeding";
-import { Button, Card } from "flowbite-react";
+'use client'
+import { Button } from "flowbite-react";
 import Image from "next/image";
+import SectionHeding from "./../../Shared/SectionHeding/SectionHeding";
 // import img4 from "@/app/Assets/child-image/child4.jpeg";
-import "./OurServices.css";
-import img from '@/app/Assets/child-image2/feeding.jpg';
 import img5 from '@/app/Assets/child-image2/Counseling .jpg';
 import img3 from '@/app/Assets/child-image2/doctor_service.jpg';
-import img6 from '@/app/Assets/child-image2/training.jpg';
-import img2 from '@/app/Assets/child-image2/teach.jpg';
+import img from '@/app/Assets/child-image2/feeding.jpg';
 import img4 from '@/app/Assets/child-image2/safety.png';
+import img2 from '@/app/Assets/child-image2/teach.jpg';
+import img6 from '@/app/Assets/child-image2/training.jpg';
+import "./OurServices.css";
 // import img from '@/app/Assets/child-image2/';
 
 const OurServices = () => {
@@ -32,11 +31,6 @@ const OurServices = () => {
               src={img}
               alt="..."
             />
-            {/* <div className="absolute top-2 right-0 img-btn">
-              <Button gradientMonochrome="info" className="rounded-none">
-                Feeding
-              </Button>
-            </div> */}
           </div>
 
           <div className="p-3 space-y-3 card-description-hover-top relative -top-10 bg-[#ffff] rounded-xl shadow-2xl w-[90%] mx-auto">
@@ -74,11 +68,6 @@ const OurServices = () => {
               src={img2}
               alt="..."
             />
-            {/* <div className="absolute top-2 right-0 img-btn">
-              <Button gradientMonochrome="info" className="rounded-none">
-                Feeding
-              </Button>
-            </div> */}
           </div>
 
           <div className="p-3 space-y-3 card-description-hover-top relative -top-10 bg-[#ffff] rounded-xl shadow-2xl w-[90%] mx-auto">
@@ -116,11 +105,6 @@ const OurServices = () => {
               src={img3}
               alt="..."
             />
-            {/* <div className="absolute top-2 right-0 img-btn">
-              <Button gradientMonochrome="info" className="rounded-none">
-                Feeding
-              </Button>
-            </div> */}
           </div>
 
           <div className="p-3 space-y-3 card-description-hover-top relative -top-10 bg-[#ffff] rounded-xl shadow-2xl w-[90%] mx-auto">
@@ -157,11 +141,6 @@ const OurServices = () => {
               src={img4}
               alt="..."
             />
-            {/* <div className="absolute top-2 right-0 img-btn">
-              <Button gradientMonochrome="info" className="rounded-none">
-                Feeding
-              </Button>
-            </div> */}
           </div>
 
           <div className="p-3 space-y-3 card-description-hover-top relative -top-10 bg-[#ffff] rounded-xl shadow-2xl w-[90%] mx-auto">
@@ -198,11 +177,6 @@ const OurServices = () => {
               src={img5}
               alt="..."
             />
-            {/* <div className="absolute top-2 right-0 img-btn">
-              <Button gradientMonochrome="info" className="rounded-none">
-                Feeding
-              </Button>
-            </div> */}
           </div>
 
           <div className="p-3 space-y-3 card-description-hover-top relative -top-10 bg-[#ffff] rounded-xl shadow-2xl w-[90%] mx-auto">
@@ -239,11 +213,6 @@ const OurServices = () => {
               src={img6}
               alt="..."
             />
-            {/* <div className="absolute top-2 right-0 img-btn">
-              <Button gradientMonochrome="info" className="rounded-none">
-                Feeding
-              </Button>
-            </div> */}
           </div>
 
           <div className="p-3 space-y-3 card-description-hover-top relative -top-10 bg-[#ffff] rounded-xl shadow-2xl w-[90%] mx-auto">
