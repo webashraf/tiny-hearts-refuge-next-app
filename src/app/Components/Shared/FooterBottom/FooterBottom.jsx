@@ -8,7 +8,7 @@ const FooterBottom = () => {
     return (
         <>
 
-            <footer class="bg-white dark:bg-gray-900 border-t-4 border-[#00ca8d]">
+            <footer class="bg-white dark:bg-gray-900 border-t-4 border-[#00ca8d] shadow-lg">
                 <div class="mx-auto w-full max-w-screen-xl">
                     <div class="grid grid-cols-2 gap-20 px-4 py-6 lg:py-8 md:grid-cols-3">
                         <div className=''>

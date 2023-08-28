@@ -10,7 +10,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <div>
+    <div className='w-[1280px] mx-auto'>
       <NavBar />
       <div>{children}</div>
       <FooterBottom />
