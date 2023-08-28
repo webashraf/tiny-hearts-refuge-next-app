@@ -5,11 +5,13 @@ import img6 from "@/app/Assets/child-image2/rose-girl.jpg";
 import Image from "next/image";
 
 import img8 from '@/app/Assets/child-image2/Counseling .jpg';
+import img16 from '@/app/Assets/child-image2/food.jpeg';
 import img18 from '@/app/Assets/child-image2/bg-child.jpg';
 import img13 from '@/app/Assets/child-image2/event1-416x412.jpg';
 import img7 from '@/app/Assets/child-image2/feeding.jpg';
 import img12 from '@/app/Assets/child-image2/safety.png';
 import img11 from '@/app/Assets/child-image2/teach.jpg';
+import img17 from '@/app/Assets/child-image2/I_am_hungry.jpg';
 import SectionHeding from "./../../Shared/SectionHeding/SectionHeding";
 const TinyHearts = () => {
   return (
@@ -17,7 +19,7 @@ const TinyHearts = () => {
       <SectionHeding
         title={"Our Tiny"}
         hTitle={"Heart's"}
-        description={"Lorem ipsum dolor sit amet consectetur adipisicing elit."}
+        description={"Lorem ipsum hdolor sit amet consectetur adipisicing elit."}
       />
       <div class="grid grid-cols-4 gap-3">
         <div class="space-y-4">
@@ -59,7 +61,7 @@ const TinyHearts = () => {
               width={400}
               height={300}
               class="h-auto w-full rounded-lg transition-transform duration-700 hover:scale-150 cursor-pointer"
-              src={img7}
+              src={img17}
               alt=""
             />
           </div>
@@ -91,7 +93,7 @@ const TinyHearts = () => {
               width={400}
               height={300}
               class="h-auto w-full rounded-lg transition-transform duration-700 hover:scale-150 cursor-pointer"
-              src={img7}
+              src={img16}
               alt=""
             />
           </div>

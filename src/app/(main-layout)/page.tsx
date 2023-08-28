@@ -5,6 +5,8 @@ import TinyHearts from '../Components/HomePageComponents/TinyHearts/TinyHearts';
 import OurServices from './../Components/HomePageComponents/OurServices/OurServices';
 import Banner from './../Components/HomePageComponents/Banner/Banner.jsx';
 import HelpUs from './../Components/HomePageComponents/HelpUs/HelpUs';
+import WhoDonateUs from './../Components/HomePageComponents/WhoDonateUs/WhoDonateUs';
+import DonateOurChild from './../Components/HomePageComponents/DonateOurChild/DonateOurChild';
 
 export default function Home() {
   return (
@@ -19,6 +21,9 @@ export default function Home() {
           <TinyHearts />
           <OurServices />
           <HelpUs />
+          <WhoDonateUs />
+          <DonateOurChild />
+          <CarouselSlide />
         </div>
 
 

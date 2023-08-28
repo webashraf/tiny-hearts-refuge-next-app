@@ -1,19 +1,24 @@
 "use client"
-import img8 from '@/app/Assets/child-image2/Counseling .jpg';
-import img18 from '@/app/Assets/child-image2/bg-child.jpg';
-import img13 from '@/app/Assets/child-image2/event1-416x412.jpg';
-import img7 from '@/app/Assets/child-image2/feeding.jpg';
+import { AiOutlineDollarCircle } from 'react-icons/ai';
 import { BiDonateHeart } from 'react-icons/bi';
 import { BsChevronRight } from 'react-icons/bs';
-import { AiOutlineDollarCircle } from 'react-icons/ai';
 import { VscBook } from 'react-icons/vsc';
 
-import Image from 'next/image';
 import { Button } from 'flowbite-react';
+import Image from 'next/image';
+import SectionHeding from '../../Shared/SectionHeding/SectionHeding';
 
+import img from '@/app/Assets/child-image2/bg-child.jpg';
+import img1 from '@/app/Assets/child-image2/donate2.jpeg';
+import img2 from '@/app/Assets/child-image2/process-food.webp';
 const HelpUs = () => {
     return (
         <section className=''>
+            <SectionHeding
+                title={"How to help our"}
+                hTitle={"Tiny Heart's"}
+                description={"Lorem ipsum hdolor sit amet consectetur adipisicing elit."}
+            />
             <div className="grid grid-cols-3 gap-6">
                 <div>
                     <div className="relative rounded-sm overflow-hidden">
@@ -22,7 +27,7 @@ const HelpUs = () => {
                             width={400}
                             height={300}
                             className="transition-transform duration-700 hover:scale-150 cursor-pointer w-[400px] h-[300px] object-cover "
-                            src={img18}
+                            src={img1}
                             alt=""
                         />
                         <div className='w-full h-full bg-[#0000007b] transition-transform duration-300 ease-in-out hover:scale-110 absolute top-0 left-0 text-white bg-gradient-to-t hover:from-[#2ec091] hover:via-[#2ec09289] hover:to-[#0bffb239]  flex justify-center items-center flex-col'>
@@ -49,7 +54,7 @@ const HelpUs = () => {
                             width={400}
                             height={300}
                             className="transition-transform duration-700 hover:scale-150 cursor-pointer w-[400px] h-[300px] object-cover "
-                            src={img18}
+                            src={img2}
                             alt=""
                         />
                         <div className='w-full h-full bg-[#0000007b] transition-transform duration-300 ease-in-out hover:scale-110 absolute top-0 left-0 text-white bg-gradient-to-t hover:from-[#2ec091] hover:via-[#2ec09289] hover:to-[#0bffb239]  flex justify-center items-center flex-col'>
@@ -67,8 +72,8 @@ const HelpUs = () => {
                             <BsChevronRight className="h-6 w-6" />
                         </Button>
                     </div>
-                </div>               
-                
+                </div>
+
                 <div>
                     <div className="relative rounded-sm overflow-hidden">
                         <Image
@@ -76,7 +81,7 @@ const HelpUs = () => {
                             width={400}
                             height={300}
                             className="transition-transform duration-700 hover:scale-150 cursor-pointer w-[400px] h-[300px] object-cover "
-                            src={img18}
+                            src={img}
                             alt=""
                         />
                         <div className='w-full h-full bg-[#0000007b] transition-transform duration-300 ease-in-out hover:scale-110 absolute top-0 left-0 text-white bg-gradient-to-t hover:from-[#2ec091] hover:via-[#2ec09289] hover:to-[#0bffb239]  flex justify-center items-center flex-col'>
@@ -93,6 +98,22 @@ const HelpUs = () => {
                         >
                             <BsChevronRight className="h-6 w-6" />
                         </Button>
+                    </div>
+                </div>
+            </div>
+            <div
+                className="w-[800px]  mx-auto pt-10"
+                id=""
+            >
+                <h4 className='text-2xl font-bold text-center uppercase py-5'>Want to be our volunteer?</h4>
+                <div className='h-[50px] flex overflow-hidden w-[420px] mx-auto'>
+                    <div>
+                    <input type="email" name="" className='h-full border-[#2ec091]' placeholder='Your email..' id="" 
+                    />
+                    </div>
+                    
+                    <div className='bg-[#2ec091] -skew-x-12 relative -left-2 px-10'>
+                    <input className='bg-[#2ec091 h-full px-5 font-bold text-white tracking-widest' type="button" value="Submit" />
                     </div>
                 </div>
             </div>
