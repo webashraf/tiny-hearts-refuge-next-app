@@ -20,10 +20,10 @@ export default function Home() {
           <Welcome />
           <TinyHearts />
           <OurServices />
+          <CarouselSlide />
           <HelpUs />
           <WhoDonateUs />
           <DonateOurChild />
-          <CarouselSlide />
         </div>
 
 

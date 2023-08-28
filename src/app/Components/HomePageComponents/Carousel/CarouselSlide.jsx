@@ -6,17 +6,36 @@ import { Fade } from "react-awesome-reveal";
 
 import { Button } from 'flowbite-react';
 import { FaDonate } from 'react-icons/fa';
-import img1 from '@/app/Assets/child-image/child1.jpg';
-import img2 from '@/app/Assets/child-image/child2.jpeg';
-import img3 from '@/app/Assets/child-image/child3.jpeg';
-import img4 from '@/app/Assets/child-image/child4.jpeg';
-import img5 from '@/app/Assets/child-image/child5.jpg';
+import img1 from '@/app/Assets/schools/school1.jpg'
+import img2 from '@/app/Assets/schools/school2.webp'
+import img3 from '@/app/Assets/schools/school3.webp'
+import img from '@/app/Assets/schools/school.jpg'
+import SectionHeding from '../../Shared/SectionHeding/SectionHeding';
 const CarouselSlide = () => {
   return (
-    <>
+    <section>
+      <SectionHeding
+        title={"Our school for"}
+        hTitle={"Tiny Heart's"}
+        description={"Lorem ipsum hdolor sit amet consectetur adipisicing elit."}
+      />
       <Carousel
-        className="h-[80vh] relative w-[1200px]"
+        className="h-[80vh] relative w-full"
       >
+
+        <div className=''>
+          <Image
+            className='w-full'
+            alt="..."
+            src={img}
+
+          />
+          <div className='h-full w-full bg-[#1f695b98] my-gb1 absolute top-0 right-0 flex items-center'>
+
+          </div>
+          <div className='h-full w-[700px] absolute top-0 left-0  flex items-center '>
+          </div>
+        </div>
         <div className=''>
           <Image
             className='w-full'
@@ -25,48 +44,41 @@ const CarouselSlide = () => {
 
           />
           <div className='h-full w-full bg-[#1f695b98] my-gb1 absolute top-0 right-0 flex items-center'>
-          <div className='space-y-3 w-[700px] mx-auto flex items-center justify-center flex-col px-16 text-white font-bold'>
-              <h1 className='text-7xl uppercase shadow-text'>Hello World</h1>
-              <p className=' font-normal shadow-text'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur tempore rerum et dolorem! Illum, autem mollitia molestiae quisquam quo assumenda. Vitae at, atque ad consectetur facilis minus nulla dolore iste!</p>
-              <Button gradientMonochrome="info">
-                <FaDonate className="mr-2 h-5 w-5" />
-                <Fade fraction className='font- uppercase font-normal'>
-                  Donate Now
-                </Fade>
-              </Button>
-            </div>
+
           </div>
           <div className='h-full w-[700px] absolute top-0 left-0  flex items-center '>
-            
           </div>
         </div>
-
-
-
-        <div className='w-[1280px]'>
+        <div className=''>
           <Image
             className='w-full'
             alt="..."
             src={img2}
+
           />
-          <div className='h-full w-[700px] bg-[#1f695b98] my-gb1 absolute top-0 -left-14 rotate-12 flex items-center'>
+          <div className='h-full w-full bg-[#1f695b98] my-gb1 absolute top-0 right-0 flex items-center'>
+
           </div>
-          <div className='h-full w-[700px] absolute top-0 left-0  flex items-center px-16 text-white font-bold'>
-            <div className='space-y-3'>
-              <h1 className='text-7xl uppercase shadow-text'>Hello World</h1>
-              <p className=' font-normal shadow-text'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur tempore rerum et dolorem! Illum, autem mollitia molestiae quisquam quo assumenda. Vitae at, atque ad consectetur facilis minus nulla dolore iste!</p>
-              <Button gradientMonochrome="info">
-                <FaDonate className="mr-2 h-5 w-5" />
-                <Fade fraction className='font- uppercase font-normal'>
-                  Donate Now
-                </Fade>
-              </Button>
-            </div>
+          <div className='h-full w-[700px] absolute top-0 left-0  flex items-center '>
+          </div>
+        </div>
+        <div className=''>
+          <Image
+            className='w-full'
+            alt="..."
+            src={img3}
+
+          />
+          <div className='h-full w-full bg-[#1f695b98] my-gb1 absolute top-0 right-0 flex items-center'>
+
+          </div>
+          <div className='h-full w-[700px] absolute top-0 left-0  flex items-center '>
           </div>
         </div>
 
+
       </Carousel>
-    </>
+    </section>
   );
 };
 

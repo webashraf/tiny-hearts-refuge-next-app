@@ -108,7 +108,7 @@ const HelpUs = () => {
                 <h4 className='text-2xl font-bold text-center uppercase py-5'>Want to be our volunteer?</h4>
                 <div className='h-[50px] flex overflow-hidden w-[420px] mx-auto'>
                     <div>
-                    <input type="email" name="" className='h-full border-[#2ec091]' placeholder='Your email..' id="" 
+                    <input type="email" name="" className='h-full border-[#2ec091]' placeholder='name@email.com' id="" 
                     />
                     </div>
                     
