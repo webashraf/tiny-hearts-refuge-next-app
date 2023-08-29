@@ -9,6 +9,7 @@ import img from '@/app/Assets/child-image2/feeding.jpg';
 import img4 from '@/app/Assets/child-image2/safety.png';
 import img2 from '@/app/Assets/child-image2/teach.jpg';
 import img6 from '@/app/Assets/child-image2/training.jpg';
+import { Bounce } from "react-awesome-reveal";
 import "./OurServices.css";
 // import img from '@/app/Assets/child-image2/';
 
@@ -34,13 +35,15 @@ const OurServices = () => {
           </div>
 
           <div className="p-3 space-y-3 card-description-hover-top relative -top-10 bg-[#ffff] rounded-xl shadow-2xl w-[90%] mx-auto">
-            <Button
-              gradientDuoTone="greenToBlue"
-              className="rounded-none"
-              size="xs"
-            >
-              Feeding
-            </Button>
+            <Bounce>
+              <Button
+                gradientDuoTone="greenToBlue"
+                className="rounded-none"
+                size="xs"
+              >
+                Feeding
+              </Button>
+
             <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white capitalize">
               3 Times feeding healthy food
             </h5>
@@ -55,6 +58,7 @@ const OurServices = () => {
                 <li>Nutritional education empowering informed choices.</li>
               </ul>
             </div>
+            </Bounce>
           </div>
         </div>
 
@@ -71,13 +75,15 @@ const OurServices = () => {
           </div>
 
           <div className="p-3 space-y-3 card-description-hover-top relative -top-10 bg-[#ffff] rounded-xl shadow-2xl w-[90%] mx-auto">
-            <Button
-              gradientDuoTone="greenToBlue"
-              className="rounded-none"
-              size="xs"
-            >
-              Education
-            </Button>
+            <Bounce>
+              <Button
+                gradientDuoTone="greenToBlue"
+                className="rounded-none"
+                size="xs"
+              >
+                Education
+              </Button>
+
             <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white capitalize">
               Provide educational all support
             </h5>
@@ -92,6 +98,7 @@ const OurServices = () => {
                 <li>Organizing workshops and skill development programs.</li>
               </ul>
             </div>
+            </Bounce>
           </div>
         </div>
 
@@ -108,13 +115,15 @@ const OurServices = () => {
           </div>
 
           <div className="p-3 space-y-3 card-description-hover-top relative -top-10 bg-[#ffff] rounded-xl shadow-2xl w-[90%] mx-auto">
-            <Button
-              gradientDuoTone="greenToBlue"
-              className="rounded-none"
-              size="xs"
-            >
-              Health
-            </Button>
+
+            <Bounce>
+              <Button
+                gradientDuoTone="greenToBlue"
+                className="rounded-none"
+                size="xs"
+                >
+                Health
+              </Button>
             <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white capitalize">
               Provide 24/7 health care
             </h5>
@@ -128,6 +137,7 @@ const OurServices = () => {
                 <li>Access to healthcare professionals.</li>
               </ul>
             </div>
+            </Bounce>
           </div>
         </div>
 
@@ -144,13 +154,14 @@ const OurServices = () => {
           </div>
 
           <div className="p-3 space-y-3 card-description-hover-top relative -top-10 bg-[#ffff] rounded-xl shadow-2xl w-[90%] mx-auto">
-            <Button
-              gradientDuoTone="greenToBlue"
-              className="rounded-none"
-              size="xs"
-            >
-              Safety
-            </Button>
+            <Bounce>
+              <Button
+                gradientDuoTone="greenToBlue"
+                className="rounded-none"
+                size="xs"
+              >
+                Safety
+              </Button>
             <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white capitalize">
               Shelter and Safety
             </h5>
@@ -164,6 +175,7 @@ const OurServices = () => {
                 <li>Access to healthcare professionals.</li>
               </ul>
             </div>
+            </Bounce>
           </div>
         </div>
 
@@ -180,13 +192,14 @@ const OurServices = () => {
           </div>
 
           <div className="p-3 space-y-3 card-description-hover-top relative -top-10 bg-[#ffff] rounded-xl shadow-2xl w-[90%] mx-auto">
-            <Button
-              gradientDuoTone="greenToBlue"
-              className="rounded-none"
-              size="xs"
-            >
-              Counseling
-            </Button>
+            <Bounce>
+              <Button
+                gradientDuoTone="greenToBlue"
+                className="rounded-none"
+                size="xs"
+              >
+                Counseling
+              </Button>
             <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white capitalize">
               Counseling and Emotional Support
             </h5>
@@ -200,6 +213,7 @@ const OurServices = () => {
                 <li>Mental health support for trauma and stress.</li>
               </ul>
             </div>
+            </Bounce>
           </div>
         </div>
 
@@ -216,13 +230,15 @@ const OurServices = () => {
           </div>
 
           <div className="p-3 space-y-3 card-description-hover-top relative -top-10 bg-[#ffff] rounded-xl shadow-2xl w-[90%] mx-auto">
-            <Button
-              gradientDuoTone="greenToBlue"
-              className="rounded-none"
-              size="xs"
-            >
-              Training
-            </Button>
+            <Bounce>
+              <Button
+                gradientDuoTone="greenToBlue"
+                className="rounded-none"
+                size="xs"
+              >
+                Training
+              </Button>
+            
             <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white capitalize">
               Provide Vocational Training
             </h5>
@@ -236,6 +252,7 @@ const OurServices = () => {
                 <li>Apprenticeship opportunities.</li>
               </ul>
             </div>
+            </Bounce>
           </div>
         </div>
       </div>

@@ -12,7 +12,7 @@ import img13 from '@/app/Assets/child-image2/event1-416x412.jpg';
 import img16 from '@/app/Assets/child-image2/food.jpeg';
 import img12 from '@/app/Assets/child-image2/safety.png';
 import img11 from '@/app/Assets/child-image2/teach.jpg';
-import { Fade } from "react-awesome-reveal";
+import { Bounce, Fade } from "react-awesome-reveal";
 import SectionHeding from "./../../Shared/SectionHeding/SectionHeding";
 const TinyHearts = () => {
   return (
@@ -24,7 +24,7 @@ const TinyHearts = () => {
       />
       <div class="grid grid-cols-4 gap-3">
         <div class="space-y-4">
-          <Fade direction="up" duration={1000} className="overflow-hidden rounded-lg">
+          <Fade duration={2000} direction="up" className="overflow-hidden rounded-lg">
             <Image
               placeholder="blur"
               width={400}
@@ -34,7 +34,7 @@ const TinyHearts = () => {
               alt=""
             />
           </Fade>
-          <Fade direction="up" duration={1000} className="overflow-hidden rounded-lg">
+          <Fade duration={2000} direction="up" className="overflow-hidden rounded-lg">
             <Image
               placeholder="blur"
               width={400}
@@ -44,7 +44,7 @@ const TinyHearts = () => {
               alt=""
             />
           </Fade>
-          <Fade direction="up" duration={1000} className="overflow-hidden rounded-lg">
+          <Fade duration={2000} direction="up" className="overflow-hidden rounded-lg">
             <Image
               placeholder="blur"
               width={400}
@@ -56,7 +56,7 @@ const TinyHearts = () => {
           </Fade>
         </div>
         <div class="space-y-4">
-          <Fade direction="up" duration={1000} className="overflow-hidden rounded-lg">
+          <Fade duration={2000} direction="up" className="overflow-hidden rounded-lg">
             <Image
               placeholder="blur"
               width={400}
@@ -66,7 +66,7 @@ const TinyHearts = () => {
               alt=""
             />
           </Fade>
-          <Fade direction="up" duration={1000} className="overflow-hidden rounded-lg">
+          <Fade duration={2000} direction="up" className="overflow-hidden rounded-lg">
             <Image
               placeholder="blur"
               width={400}
@@ -76,7 +76,7 @@ const TinyHearts = () => {
               alt=""
             />
           </Fade>
-          <Fade direction="up" duration={1000} className="overflow-hidden rounded-lg">
+          <Fade duration={2000} direction="up" className="overflow-hidden rounded-lg">
             <Image
               placeholder="blur"
               width={400}
@@ -88,7 +88,7 @@ const TinyHearts = () => {
           </Fade>
         </div>
         <div class="space-y-4">
-          <Fade direction="up" duration={1000} className="overflow-hidden rounded-lg">
+          <Fade duration={2000} direction="up" className="overflow-hidden rounded-lg">
             <Image
               placeholder="blur"
               width={400}
@@ -98,7 +98,7 @@ const TinyHearts = () => {
               alt=""
             />
           </Fade>
-          <Fade direction="up" duration={1000} className="overflow-hidden rounded-lg">
+          <Fade duration={2000} direction="up" className="overflow-hidden rounded-lg">
             <Image
               placeholder="blur"
               width={400}
@@ -108,7 +108,7 @@ const TinyHearts = () => {
               alt=""
             />
           </Fade>
-          <Fade direction="up" duration={1000} className="overflow-hidden rounded-lg">
+          <Fade duration={2000} direction="up" className="overflow-hidden rounded-lg">
             <Image
               placeholder="blur"
               width={400}
@@ -120,7 +120,7 @@ const TinyHearts = () => {
           </Fade>
         </div>
         <div class="space-y-4">
-          <Fade direction="up" duration={1000} className="overflow-hidden rounded-lg">
+          <Fade duration={2000} direction="up" className="overflow-hidden rounded-lg">
             <Image
               placeholder="blur"
               width={400}
@@ -130,7 +130,7 @@ const TinyHearts = () => {
               alt=""
             />
           </Fade>
-          <Fade direction="up" duration={1000} className="overflow-hidden rounded-lg">
+          <Fade duration={2000} direction="up" className="overflow-hidden rounded-lg">
             <Image
               placeholder="blur"
               width={400}

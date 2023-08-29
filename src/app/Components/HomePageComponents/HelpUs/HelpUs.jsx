@@ -11,6 +11,7 @@ import SectionHeding from '../../Shared/SectionHeding/SectionHeding';
 import img from '@/app/Assets/child-image2/bg-child.jpg';
 import img1 from '@/app/Assets/child-image2/donate2.jpeg';
 import img2 from '@/app/Assets/child-image2/process-food.webp';
+import { Bounce } from 'react-awesome-reveal';
 const HelpUs = () => {
     return (
         <section className=''>
@@ -32,9 +33,11 @@ const HelpUs = () => {
                         />
                         <div className='w-full h-full bg-[#0000007b] transition-transform duration-300 ease-in-out hover:scale-110 absolute top-0 left-0 text-white bg-gradient-to-t hover:from-[#2ec091] hover:via-[#2ec09289] hover:to-[#0bffb239]  flex justify-center items-center flex-col'>
 
-                            <AiOutlineDollarCircle className="text-5xl text-[#36ffbf]"> </AiOutlineDollarCircle>
-                            <h2 className="text-2xl font-bold uppercase">Make Donation</h2>
-                            <p className='text-center'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et, cumque.</p>
+                            <Bounce>
+                                <AiOutlineDollarCircle className="text-5xl text-[#36ffbf]"> </AiOutlineDollarCircle>
+                                <h2 className="text-2xl font-bold uppercase">Make Donation</h2>
+                                <p className='text-center'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et, cumque.</p>
+                            </Bounce>
                         </div>
 
                     </div>
@@ -58,9 +61,11 @@ const HelpUs = () => {
                             alt=""
                         />
                         <div className='w-full h-full bg-[#0000007b] transition-transform duration-300 ease-in-out hover:scale-110 absolute top-0 left-0 text-white bg-gradient-to-t hover:from-[#2ec091] hover:via-[#2ec09289] hover:to-[#0bffb239]  flex justify-center items-center flex-col'>
-                            <BiDonateHeart className="text-5xl text-[#36ffbf]"></BiDonateHeart>
-                            <h2 className="text-2xl font-bold uppercase">Become A Volunteer</h2>
-                            <p className='text-center'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et, cumque.</p>
+                            <Bounce>
+                                <BiDonateHeart className="text-5xl text-[#36ffbf]"></BiDonateHeart>
+                                <h2 className="text-2xl font-bold uppercase">Become A Volunteer</h2>
+                                <p className='text-center'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et, cumque.</p>
+                            </Bounce>
                         </div>
 
                     </div>
@@ -85,9 +90,12 @@ const HelpUs = () => {
                             alt=""
                         />
                         <div className='w-full h-full bg-[#0000007b] transition-transform duration-300 ease-in-out hover:scale-110 absolute top-0 left-0 text-white bg-gradient-to-t hover:from-[#2ec091] hover:via-[#2ec09289] hover:to-[#0bffb239]  flex justify-center items-center flex-col'>
-                            <VscBook className="text-5xl text-[#36ffbf]"></VscBook>
-                            <h2 className="text-2xl font-bold uppercase">Education For All</h2>
-                            <p className='text-center'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et, cumque.</p>
+                            <Bounce>
+
+                                <VscBook className="text-5xl text-[#36ffbf]"></VscBook>
+                                <h2 className="text-2xl font-bold uppercase">Education For All</h2>
+                                <p className='text-center'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et, cumque.</p>
+                            </Bounce>
                         </div>
 
                     </div>

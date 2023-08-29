@@ -15,7 +15,7 @@ const Welcome = () => {
                 placeholder='blur'
                 />
             </div>
-            <Fade  className="w-1/2 shadow-2xl p-5 relative -left-[126px] bg-white rounded-lg shadow-[#00ffbf5a]">
+            <Fade duration={2000}  className="w-1/2 shadow-2xl p-5 relative -left-[126px] bg-white rounded-lg shadow-[#00ffbf5a]">
                 <div className="welcome-section space-y-3">
                     <p className='uppercase text-[#00ffbf] font-bold underline'>About Us</p>
 
