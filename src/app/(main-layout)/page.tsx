@@ -1,12 +1,12 @@
 import CarouselSlide from '../Components/HomePageComponents/Carousel/CarouselSlide';
-import NavBar from './../Components/Shared/NavBar/NavBar';
-import Welcome from './../Components/HomePageComponents/Welcome/Welcome';
 import TinyHearts from '../Components/HomePageComponents/TinyHearts/TinyHearts';
-import OurServices from './../Components/HomePageComponents/OurServices/OurServices';
 import Banner from './../Components/HomePageComponents/Banner/Banner.jsx';
-import HelpUs from './../Components/HomePageComponents/HelpUs/HelpUs';
-import WhoDonateUs from './../Components/HomePageComponents/WhoDonateUs/WhoDonateUs';
 import DonateOurChild from './../Components/HomePageComponents/DonateOurChild/DonateOurChild';
+import HelpUs from './../Components/HomePageComponents/HelpUs/HelpUs';
+import OurServices from './../Components/HomePageComponents/OurServices/OurServices';
+import Welcome from './../Components/HomePageComponents/Welcome/Welcome';
+import WhoDonateUs from './../Components/HomePageComponents/WhoDonateUs/WhoDonateUs';
+import OurEvents from './../Components/HomePageComponents/OurEvents/OurEvents';
 
 export default function Home() {
   return (
@@ -22,6 +22,7 @@ export default function Home() {
           <HelpUs />
           <WhoDonateUs />
           <DonateOurChild />
+          <OurEvents />
         </div>
 
 
