@@ -70,17 +70,20 @@ const NavBar = () => {
                     <Navbar.Toggle />
                 </div>
                 <Navbar.Collapse>
-                    <Navbar.Link
+                    <Link
                         active
                         href="/"
                     >
                         <p>
                             Home
                         </p>
-                    </Navbar.Link>
-                    <Navbar.Link href="/template">
+                    </Link>
+                    <Link href="/template">
                         Template
-                    </Navbar.Link>
+                    </Link>
+                    <Link href="/blogs">
+                        Blogs
+                    </Link>
                     <Navbar.Link href="#">
                         Services
                     </Navbar.Link>
